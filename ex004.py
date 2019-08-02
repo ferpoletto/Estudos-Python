@@ -8,4 +8,3 @@ print(f'É alfabetico? {palavra.isalnum()}')
 print(f'Está em maiuscula? {palavra.isupper()}')
 print(f'Está em minúscula? {palavra.islower()}')
 print(f'Está capitalizada? {palavra.istitle()}')
-palavra.
