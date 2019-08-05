@@ -5,8 +5,8 @@ gmail_password = 'P@ssword!'
 
 sent_from = gmail_user
 to = ['me@gmail.com', 'bill@gmail.com']
-subject = 'OMG Super Important Message'
-body = 'Hey, what's up?\n\n- You'
+subject = 'ASSUNTO'
+body = "CORPO DO EMAIL"
 
 email_text = """\
 From: %s
