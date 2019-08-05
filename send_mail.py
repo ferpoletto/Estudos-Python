@@ -1,13 +1,13 @@
-def send_email(recipient, subject, body):
+def send_email(destinatario, assunto, mensagem):
     import smtplib
 
     user = 'login'
     pwd = 'senha'
 
     FROM = user
-    TO = recipient if isinstance(recipient, list) else [recipient]
-    SUBJECT = subject
-    TEXT = body
+    TO = destinatario if isinstance(destinatario, list) else [destinatario]
+    SUBJECT = assunto
+    TEXT = mensagem
 
     # Prepare actual message
     message = """From: %s\nTo: %s\nSubject: %s\n\n%s
