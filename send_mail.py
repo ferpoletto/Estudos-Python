@@ -1,5 +1,8 @@
-def send_email(user, pwd, recipient, subject, body):
+def send_email(recipient, subject, body):
     import smtplib
+
+    user = 'login'
+    pwd = 'senha'
 
     FROM = user
     TO = recipient if isinstance(recipient, list) else [recipient]
@@ -16,6 +19,6 @@ def send_email(user, pwd, recipient, subject, body):
         server.login(user, pwd)
         server.sendmail(FROM, TO, message)
         server.close()
-        print('successfully sent the mail')
+        print('Enviado com sucesso')
     except:
-        print("failed to send mail")
+        print("Deu ruim...")
