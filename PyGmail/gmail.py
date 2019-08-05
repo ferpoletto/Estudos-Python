@@ -1,4 +1,4 @@
-def send_email(destinatario, assunto, mensagem):
+def enviar_email(destinatario, assunto, mensagem):
     import smtplib
 
     user = 'login'
