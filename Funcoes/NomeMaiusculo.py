@@ -1,5 +1,4 @@
-name = 'minicurso de python para mulheres'
-
+name = 'márcio albuquerque da silveira martins de jesus'
 
 def cap_name(name):
     items = []
