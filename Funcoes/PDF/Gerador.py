@@ -12,7 +12,7 @@ def GeneratePDF(lista):
         pdf.setFont("Helvetica-Oblique", 14)
         pdf.drawString(245,750, 'Titulo Centralizado')
         pdf.setFont("Helvetica-Bold", 12)
-        pdf.drawString(245,724, 'Subtitulo')
+        pdf.drawString(260,724, 'Subtitulo')
         pdf.save()
         print('{}.pdf criado com sucesso!'.format(nome_pdf))
     except:
