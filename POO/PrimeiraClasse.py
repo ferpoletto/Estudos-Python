@@ -1,0 +1,15 @@
+class retangulo:
+
+    def __init__(self):
+        self.l = 0
+        self.c = 0
+
+    def area(self):
+        return self.c * self.l
+
+teste = retangulo()
+
+teste.l = 2
+teste.c = 2
+
+print(teste.area())
