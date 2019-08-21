@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb6c2d13-a1e9-4848-8a8d-207661f65f58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Estudos-Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Estudos-Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fb6c2d13-a1e9-4848-8a8d-207661f65f58" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,15 +21,16 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="3" />
           <entry key="pabotsuitenames" value="1" />
-          <entry key="py" value="44" />
+          <entry key="py" value="47" />
           <entry key="robot" value="18" />
           <entry key="sql" value="2" />
         </counts>
@@ -40,23 +38,24 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="44" />
+          <entry key="Python" value="47" />
           <entry key="Robot Feature" value="18" />
           <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="15" />
           <entry key="gitignore" value="43" />
-          <entry key="py" value="4321" />
+          <entry key="py" value="4478" />
           <entry key="robot" value="975" />
           <entry key="sql" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="43" />
-          <entry key="Python" value="4321" />
+          <entry key="PLAIN_TEXT" value="58" />
+          <entry key="Python" value="4478" />
           <entry key="Robot Feature" value="975" />
           <entry key="SQL" value="22" />
         </counts>
@@ -64,7 +63,21 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/POO/PrimeiraClasse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <marker date="1566339628954" expanded="true" signature="16:17" ph="..." />
+                <marker date="1566339628954" expanded="true" signature="16:22" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,7 +87,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Programacao2_Faculdade" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -100,10 +113,11 @@
         <option value="$USER_HOME$/Documents/Aula-M-dia/ex1.py" />
         <option value="$PROJECT_DIR$/../Programacao2_Faculdade/PrimeiraListaDeExercicios/32.py" />
         <option value="$PROJECT_DIR$/../Programacao2_Faculdade/PrimeiraListaDeExercicios/33.py" />
+        <option value="$PROJECT_DIR$/POO/Classes.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -116,6 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,13 +141,12 @@
             <path>
               <item name="Estudos-Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Estudos-Python" type="462c0819:PsiDirectoryNode" />
-              <item name="CursoEmVideo" type="462c0819:PsiDirectoryNode" />
+              <item name="POO" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -163,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.32">
+  <component name="RunManager" selected="Python.Classes">
     <configuration name="18" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Programacao2_Faculdade" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,14 +262,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Classes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Estudos-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POO" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\ADS\PycharmProjects\Estudos-Python\POO\PrimeiraClasse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.18" />
       <item itemvalue="Python.30" />
       <item itemvalue="Python.31" />
       <item itemvalue="Python.32" />
+      <item itemvalue="Python.Classes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Classes" />
         <item itemvalue="Python.32" />
         <item itemvalue="Python.31" />
         <item itemvalue="Python.30" />
@@ -277,7 +314,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1748512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -287,7 +325,7 @@
       <window_info id="Job Explorer" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6377049" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30819672" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -440,13 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Programacao2_Faculdade/PrimeiraListaDeExercicios/33.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="69" column="48" lean-forward="true" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Programacao2_Faculdade/PrimeiraListaDeExercicios/32.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
@@ -492,6 +523,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Programacao2_Faculdade/PrimeiraListaDeExercicios/23.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Programacao2_Faculdade/PrimeiraListaDeExercicios/33.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="48" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POO/PrimeiraClasse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <marker date="1566339628954" expanded="true" signature="16:17" ph="..." />
+            <marker date="1566339628954" expanded="true" signature="16:22" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
