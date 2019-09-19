@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Programacao2_Faculdade" />
     <orderEntry type="module" module-name="Robot-Framework" />
+    <orderEntry type="module" module-name="GitJefferson" />
   </component>
 </module>
