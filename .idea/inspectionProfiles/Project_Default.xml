@@ -5,6 +5,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="Aulas.TestesUnitarios.ex03Test.ExeLista2" />
+          <option value="CRUD_mongo.main.aluno" />
         </list>
       </option>
     </inspection_tool>
